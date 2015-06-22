@@ -60,6 +60,12 @@
 .fa-phone:before { content: '\e800'; } /* '' */
 .fa-clock-o:before { content: '\e801'; } /* '' */
 .fa-map-marker:before { content: '\e802'; } /* '' */
+.fa-mobile:before { content: '\e803'; } /* '' */
+.fa-tablet:before { content: '\e804'; } /* '' */
+.fa-headphones:before { content: '\e805'; } /* '' */
+.fa-desktop:before { content: '\e806'; } /* '' */
+.fa-android:before { content: '\e807'; } /* '' */
+.fa-laptop:before { content: '\e808'; } /* '' */
 
 /* FONTS */
 
@@ -945,12 +951,13 @@ a .small-featured-item{
 
 .catalog-nav ul li{
     display: inline-block;
+    vertical-align: top;
 }
 
 .catalog-nav ul li a{
     font-size: 16px;
     color: #000;
-    padding: 5px 20px;
+    padding: 5px 18px;
 }
 
 .catalog-nav ul li a.selected{
